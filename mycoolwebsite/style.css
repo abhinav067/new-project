@@ -1,0 +1,52 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    color: #e9d8a6;
+    background-color: #9b2226;
+}
+
+
+
+
+header{
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
+main{
+    font-size: 30px;
+    text-align: left;
+}
+ 
+footer{
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.Apple{
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.bar{
+    padding:30px;
+    text-align: center;
+    font-size: 40px;
+    background-color: bisque;
+    color:black;
+ }
+
+
+ .bar:hover{
+    cursor: pointer;
+    color: red;
+ }

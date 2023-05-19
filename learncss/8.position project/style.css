@@ -1,0 +1,51 @@
+body{
+    color: white;
+}
+/* z index- konsa element kis ke upar aarhaa hai  */
+.container{
+    width: 300px;
+    height: 600px;
+    background-color: gainsboro;
+    margin:100px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+} 
+
+.red{
+    /*relative ka relative hotha hai parent  */
+    position: relative;  
+    background-color: red;
+    top:100px;
+    left: 100px;
+}
+
+.green{
+    /* absolute ka relative hotha hai html but the parent of "absolute element" is not always the root element, as we will learn in this video */
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    z-index: 1;
+}
+
+.blue{
+    background-color: blue;
+    position: fixed;
+    bottom:50px;
+    right: 50px;
+    z-index: 2;
+}
+
+
+.purple{
+   background-color: purple; 
+   position: sticky;
+   top: 50px;
+}
+
+.spacer{
+   height: 300vh;
+}

@@ -1,0 +1,13 @@
+body{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #caf0f8;
+    background-color: #264653;
+}
+article{
+    background-color:#2a9d8f ;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 4px;
+}
